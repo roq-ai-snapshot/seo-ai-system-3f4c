@@ -1,0 +1,2472 @@
+[
+  {
+    "seo_strategy": [
+      {
+        "id": "f457becb-8d23-475d-bdb3-103f0752833b",
+        "strategy": "Improve website traffic",
+        "goals": "Generate more leads",
+        "tactics": "Keyword research and optimization",
+        "created_at": "2023-08-27T19:36:18.149Z",
+        "updated_at": "2023-08-28T03:02:51.702Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ea4f1ded-f38f-4a51-9400-c7fc0d5f8f92",
+        "strategy": "Enhance online visibility",
+        "goals": "Increase brand awareness",
+        "tactics": "Content creation and optimization",
+        "created_at": "2023-08-27T17:53:14.662Z",
+        "updated_at": "2023-08-27T23:18:48.739Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2dd38811-d2fe-4a17-88ea-ef757e2b86b5",
+        "strategy": "Increase search engine rankings",
+        "goals": "Drive organic traffic",
+        "tactics": "On-page and off-page SEO",
+        "created_at": "2023-08-27T12:10:18.921Z",
+        "updated_at": "2023-08-27T06:29:09.249Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7573411a-0c27-4f4f-b724-68e2c36bcb2d",
+        "strategy": "Optimize content for SEO",
+        "goals": "Improve user engagement",
+        "tactics": "Link building and outreach",
+        "created_at": "2023-08-27T18:32:36.763Z",
+        "updated_at": "2023-08-27T21:48:36.569Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fee9bb14-e96a-4ab0-b0c0-bc4d780d67c1",
+        "strategy": "Build high-quality backlinks",
+        "goals": "Expand target audience",
+        "tactics": "Social media marketing",
+        "created_at": "2023-08-27T07:26:01.570Z",
+        "updated_at": "2023-08-27T21:51:29.898Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "ed08ce10-435a-4c38-9168-6b184a91acd1",
+        "status": "Optimized",
+        "keywords": "SEO strategy",
+        "backlinks": 65704,
+        "traffic": 20721,
+        "created_at": "2023-08-27T22:47:31.034Z",
+        "updated_at": "2023-08-27T12:33:15.560Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "03142394-8dce-4fbf-8f78-ff1417795a3f",
+        "status": "In progress",
+        "keywords": "Search engine optimization",
+        "backlinks": 91700,
+        "traffic": 59257,
+        "created_at": "2023-08-27T11:16:22.766Z",
+        "updated_at": "2023-08-27T08:43:36.070Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fff83e03-e486-4ff5-9b0e-cab08658d65b",
+        "status": "Needs improvement",
+        "keywords": "Keyword analysis",
+        "backlinks": 20687,
+        "traffic": 30542,
+        "created_at": "2023-08-27T15:23:46.295Z",
+        "updated_at": "2023-08-27T08:12:17.677Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1dde46de-d279-4d4b-9524-94a49fa3bab5",
+        "status": "Highly ranked",
+        "keywords": "Website ranking",
+        "backlinks": 24295,
+        "traffic": 81620,
+        "created_at": "2023-08-28T02:16:20.954Z",
+        "updated_at": "2023-08-27T07:41:51.512Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aacdff8d-4315-4d91-9982-6d70c0666c59",
+        "status": "Under review",
+        "keywords": "Organic search traffic",
+        "backlinks": 42336,
+        "traffic": 68721,
+        "created_at": "2023-08-27T13:32:14.234Z",
+        "updated_at": "2023-08-27T17:43:53.803Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "2dd62a6b-55d4-413b-8182-f3021eb2bc5a",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily.anderson@example.com",
+        "created_at": "2023-08-27T22:17:33.639Z",
+        "updated_at": "2023-08-27T11:29:23.055Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8d8e1e5e-d06b-48eb-a375-90be6ec23030",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel.brown@example.com",
+        "created_at": "2023-08-27T10:27:05.549Z",
+        "updated_at": "2023-08-27T20:50:10.106Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b15c02bb-11c5-48bb-81fc-a768547e92ab",
+        "first_name": "Olivia",
+        "last_name": "Clark",
+        "email": "olivia.clark@example.com",
+        "created_at": "2023-08-27T10:53:09.267Z",
+        "updated_at": "2023-08-27T07:52:57.517Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e2728918-65a4-49cc-8304-81905febcd99",
+        "first_name": "James",
+        "last_name": "Davis",
+        "email": "james.davis@example.com",
+        "created_at": "2023-08-27T18:29:39.728Z",
+        "updated_at": "2023-08-27T05:49:45.152Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "11f4917f-b189-472e-8470-386c44541e90",
+        "first_name": "Sophia",
+        "last_name": "Evans",
+        "email": "sophia.evans@example.com",
+        "created_at": "2023-08-27T17:44:12.553Z",
+        "updated_at": "2023-08-28T01:16:26.143Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "50e2de7c-e9d7-4484-b828-f1e843ae8af0",
+        "title": "The Art of Digital Marketing",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 44862,
+        "created_at": "2023-08-27T08:11:17.934Z",
+        "updated_at": "2023-08-27T07:47:22.202Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4aecdea9-b48b-4675-b3fb-2cea45a9ce26",
+        "title": "Mastering Content Creation",
+        "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "seo_score": 23755,
+        "created_at": "2023-08-27T13:30:29.538Z",
+        "updated_at": "2023-08-27T16:52:20.262Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb1ad19e-99f1-40c1-ac93-8bf84c8822d5",
+        "title": "Effective SEO Strategies",
+        "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "seo_score": 26964,
+        "created_at": "2023-08-27T16:15:37.318Z",
+        "updated_at": "2023-08-27T19:41:14.145Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e403bf0-abd2-4cc5-ae55-6f44a4446eab",
+        "title": "The Power of Social Media",
+        "body": "Et harum quidem rerum facilis est et expedita distinctio.",
+        "seo_score": 66735,
+        "created_at": "2023-08-27T09:55:00.649Z",
+        "updated_at": "2023-08-28T03:13:22.489Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb2cefea-7c8e-4fd8-8cf0-5e402a6c8cb9",
+        "title": "Building a Strong Online Presence",
+        "body": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.",
+        "seo_score": 58931,
+        "created_at": "2023-08-27T09:22:04.430Z",
+        "updated_at": "2023-08-28T04:24:11.099Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "75b03e10-6759-4280-850b-4693de2d9dac",
+        "email": "Suzanne.Schaefer56@yahoo.com",
+        "firstName": "Clint",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/334.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "decbaa1e-ac10-4007-b0fa-59d078514c45",
+        "email": "Margarete_Schulist16@gmail.com",
+        "firstName": "Dasia",
+        "lastName": "Franecki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60305520",
+        "tenantId": null
+      },
+      {
+        "reference": "dd20a934-f310-4872-9bf0-f8908a2eeeaf",
+        "email": "Alexander13@hotmail.com",
+        "firstName": "Buster",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26856428",
+        "tenantId": null
+      },
+      {
+        "reference": "b3389ee9-9329-44c7-978a-b6e5736e6659",
+        "email": "Everette23@yahoo.com",
+        "firstName": "Alford",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8851918",
+        "tenantId": null
+      },
+      {
+        "reference": "e5199252-76b0-4ba5-b377-dcec817dfd26",
+        "email": "Liam94@gmail.com",
+        "firstName": "Nicholas",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/246.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "175cd776-e194-41d2-bc5e-f7754c012982",
+        "strategy": "Targeted keyword optimization",
+        "goals": "Increase organic traffic",
+        "tactics": "On-page SEO optimization",
+        "created_at": "2023-08-27T11:29:19.231Z",
+        "updated_at": "2023-08-28T01:08:53.211Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "92fc18ba-24ac-4d6c-bf3d-54b02cb6f778",
+        "strategy": "Content creation and distribution",
+        "goals": "Improve search engine rankings",
+        "tactics": "Guest blogging",
+        "created_at": "2023-08-28T00:07:38.297Z",
+        "updated_at": "2023-08-27T20:40:38.903Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3ce03ffd-8671-42de-84c4-385bc93cd5f2",
+        "strategy": "Link building and outreach",
+        "goals": "Enhance brand visibility",
+        "tactics": "Local SEO targeting",
+        "created_at": "2023-08-27T13:37:51.896Z",
+        "updated_at": "2023-08-27T19:28:11.711Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "39f14ada-085e-4698-bee6-ffc6960d8a4a",
+        "strategy": "Website performance optimization",
+        "goals": "Drive more conversions",
+        "tactics": "Mobile optimization",
+        "created_at": "2023-08-28T02:46:18.434Z",
+        "updated_at": "2023-08-27T13:07:42.729Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1f768ec9-82cd-410a-9dfd-8758b58d5400",
+        "strategy": "Social media engagement",
+        "goals": "Establish thought leadership",
+        "tactics": "Social media advertising",
+        "created_at": "2023-08-27T20:52:18.198Z",
+        "updated_at": "2023-08-28T03:27:49.243Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "9c5a8d3c-157c-4648-bab1-96ff67cac82f",
+        "status": "Optimized",
+        "keywords": "SEO strategy",
+        "backlinks": 25241,
+        "traffic": 93608,
+        "created_at": "2023-08-27T18:17:26.855Z",
+        "updated_at": "2023-08-28T03:17:09.176Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "50060db2-3416-448b-ab85-771dc9319f4d",
+        "status": "In progress",
+        "keywords": "Search engine optimization",
+        "backlinks": 56127,
+        "traffic": 12999,
+        "created_at": "2023-08-27T15:20:11.482Z",
+        "updated_at": "2023-08-27T14:47:46.643Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aa81d301-2125-4f53-a006-592c0a4fccf9",
+        "status": "Needs improvement",
+        "keywords": "Keyword research",
+        "backlinks": 22832,
+        "traffic": 25660,
+        "created_at": "2023-08-28T00:22:14.391Z",
+        "updated_at": "2023-08-27T11:19:30.730Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fbd7b3a1-24cc-41dc-8cee-fdf2a742225e",
+        "status": "Highly ranked",
+        "keywords": "Backlink analysis",
+        "backlinks": 78399,
+        "traffic": 47120,
+        "created_at": "2023-08-27T23:08:03.191Z",
+        "updated_at": "2023-08-27T10:44:45.788Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c03096a-da1c-4b97-a57c-91da445a4e8c",
+        "status": "Under review",
+        "keywords": "Competitor analysis",
+        "backlinks": 23624,
+        "traffic": 34848,
+        "created_at": "2023-08-28T01:58:03.879Z",
+        "updated_at": "2023-08-28T03:35:18.587Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "fafc3939-4798-48de-8b26-29ce49799809",
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "email": "emma.johnson@example.com",
+        "created_at": "2023-08-27T14:39:35.203Z",
+        "updated_at": "2023-08-27T08:42:05.499Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3d809356-9810-499b-8e2c-904d5fd86737",
+        "first_name": "Liam",
+        "last_name": "Smith",
+        "email": "liam.smith@example.com",
+        "created_at": "2023-08-27T14:12:34.777Z",
+        "updated_at": "2023-08-27T19:53:19.324Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "909ba484-5fda-46c0-bc1c-1e489f382e63",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "email": "olivia.brown@example.com",
+        "created_at": "2023-08-28T02:17:39.327Z",
+        "updated_at": "2023-08-27T12:53:20.288Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "706a81cd-4bac-4745-8089-be4f0a33aca8",
+        "first_name": "Noah",
+        "last_name": "Jones",
+        "email": "noah.jones@example.com",
+        "created_at": "2023-08-27T19:10:59.457Z",
+        "updated_at": "2023-08-27T06:12:10.771Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2546b917-88b0-48be-a31a-7624a64fa0dd",
+        "first_name": "Ava",
+        "last_name": "Williams",
+        "email": "ava.williams@example.com",
+        "created_at": "2023-08-28T03:43:16.954Z",
+        "updated_at": "2023-08-27T06:51:17.888Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "dc7e56c6-88f4-4e10-972a-33b20b33628d",
+        "title": "The Art of Storytelling",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 32148,
+        "created_at": "2023-08-27T09:44:20.365Z",
+        "updated_at": "2023-08-28T03:43:59.619Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cf7deaf-9b91-4321-92f4-a33d46cc5816",
+        "title": "Mastering Productivity",
+        "body": "Nulla facilisi. Sed id enim quis nunc gravida ultricies.",
+        "seo_score": 7046,
+        "created_at": "2023-08-27T07:50:03.637Z",
+        "updated_at": "2023-08-27T21:12:55.330Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20b0d582-4961-4778-bc41-55b54cac9dd4",
+        "title": "Unlocking Creativity",
+        "body": "Praesent dapibus, velit ac facilisis tincidunt, neque turpis efficitur ligula.",
+        "seo_score": 81946,
+        "created_at": "2023-08-27T15:12:25.508Z",
+        "updated_at": "2023-08-27T12:26:57.546Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46c7cc53-1aac-4e88-9c4b-7f451599da39",
+        "title": "The Power of Positive Thinking",
+        "body": "Fusce nec ex id purus feugiat finibus.",
+        "seo_score": 20811,
+        "created_at": "2023-08-27T19:43:10.709Z",
+        "updated_at": "2023-08-27T08:45:48.715Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca5e5f32-cf6f-47c6-916e-ba4607d74deb",
+        "title": "Effective Communication Strategies",
+        "body": "Donec rutrum lacinia nisl, sed tempus mauris.",
+        "seo_score": 80658,
+        "created_at": "2023-08-28T03:40:43.123Z",
+        "updated_at": "2023-08-27T08:03:24.924Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "91930740-da0e-44ef-9d84-47bbd31eee6a",
+        "email": "Elizabeth23@gmail.com",
+        "firstName": "Terrell",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19602299",
+        "tenantId": null
+      },
+      {
+        "reference": "63af18af-71f1-4725-8d55-317b2daa5833",
+        "email": "Nestor_Koelpin@yahoo.com",
+        "firstName": "Mafalda",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/616.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7faed81f-cb92-4bf0-9544-2626cfdc90f0",
+        "email": "Celestine.Zulauf@gmail.com",
+        "firstName": "Schuyler",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/792.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79ea99e9-2b69-457a-8385-1ef3205f958b",
+        "email": "Zola.Schowalter@hotmail.com",
+        "firstName": "Maxine",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/645.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b1f893f-2afe-452f-8024-3882aaf07303",
+        "email": "Jacquelyn.Johnson@hotmail.com",
+        "firstName": "Dusty",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39596033",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "92658746-a69a-48aa-8c8c-a2c1d46276de",
+        "strategy": "Improve organic search rankings",
+        "goals": "Increase conversion rate",
+        "tactics": "Keyword research and optimization",
+        "created_at": "2023-08-27T23:42:38.186Z",
+        "updated_at": "2023-08-27T16:27:31.443Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "39d4f087-4ef8-4990-986d-016b853b2097",
+        "strategy": "Increase website traffic",
+        "goals": "Build brand awareness",
+        "tactics": "On-page optimization",
+        "created_at": "2023-08-28T00:06:36.112Z",
+        "updated_at": "2023-08-27T15:26:50.977Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "31fc836f-b28f-4b33-b3d0-9728f72d42ab",
+        "strategy": "Enhance user engagement",
+        "goals": "Generate leads",
+        "tactics": "Link building",
+        "created_at": "2023-08-27T22:37:25.773Z",
+        "updated_at": "2023-08-27T15:21:58.439Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d0c1cb6f-f8d5-424d-ae19-ba4cc7e31ea5",
+        "strategy": "Optimize website for mobile devices",
+        "goals": "Improve search engine visibility",
+        "tactics": "Social media marketing",
+        "created_at": "2023-08-28T05:19:11.514Z",
+        "updated_at": "2023-08-27T06:23:00.558Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4fa851ba-c918-4a92-9ed6-e0ad512e804e",
+        "strategy": "Create high-quality content",
+        "goals": "Enhance user experience",
+        "tactics": "Content marketing",
+        "created_at": "2023-08-27T14:25:25.268Z",
+        "updated_at": "2023-08-27T09:47:51.966Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "35c7258d-132d-47cf-a046-a52ad8125561",
+        "status": "On track",
+        "keywords": "SEO strategy",
+        "backlinks": 17987,
+        "traffic": 977,
+        "created_at": "2023-08-27T10:35:47.654Z",
+        "updated_at": "2023-08-27T14:10:18.215Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9d4eeefe-870e-4b9b-930d-6c3d4e35c1d7",
+        "status": "Behind schedule",
+        "keywords": "Search engine optimization",
+        "backlinks": 89913,
+        "traffic": 15516,
+        "created_at": "2023-08-27T18:40:09.931Z",
+        "updated_at": "2023-08-27T06:08:48.919Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "20272e6e-e867-45c2-8959-5f59f151fa0d",
+        "status": "Meeting targets",
+        "keywords": "Keyword ranking",
+        "backlinks": 57774,
+        "traffic": 87621,
+        "created_at": "2023-08-27T08:56:01.527Z",
+        "updated_at": "2023-08-27T08:15:33.894Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e4145461-04a9-4b77-97c4-e8d22bdd70ab",
+        "status": "Exceeding expectations",
+        "keywords": "Organic traffic",
+        "backlinks": 63035,
+        "traffic": 22649,
+        "created_at": "2023-08-27T18:46:27.344Z",
+        "updated_at": "2023-08-27T08:50:34.672Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "101f762e-b166-40cf-8cef-6571eb387888",
+        "status": "Facing challenges",
+        "keywords": "Backlink profile",
+        "backlinks": 80657,
+        "traffic": 43904,
+        "created_at": "2023-08-27T13:31:59.563Z",
+        "updated_at": "2023-08-27T09:51:24.455Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "e6778c5f-555d-46ce-bdab-bd7dca66401d",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "created_at": "2023-08-27T22:57:01.126Z",
+        "updated_at": "2023-08-27T11:21:25.510Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3bd3ed2f-e4cc-44a3-8c70-f2fb17585575",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel.brown@example.com",
+        "created_at": "2023-08-27T20:16:08.041Z",
+        "updated_at": "2023-08-27T07:39:29.248Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c17e7d4e-843a-4bdd-af88-b606e5ef09bb",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "email": "olivia.smith@example.com",
+        "created_at": "2023-08-27T23:52:27.330Z",
+        "updated_at": "2023-08-27T06:14:39.273Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "220dfe91-509b-4730-9204-9eb15a92b8e5",
+        "first_name": "James",
+        "last_name": "Davis",
+        "email": "james.davis@example.com",
+        "created_at": "2023-08-27T15:28:56.118Z",
+        "updated_at": "2023-08-27T21:42:19.802Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "45669028-0663-4b44-899d-1dd8eb579245",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "email": "sophia.wilson@example.com",
+        "created_at": "2023-08-27T16:57:18.966Z",
+        "updated_at": "2023-08-28T03:57:56.364Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "c399b3b9-3067-475f-9ab7-fa3df0813dc1",
+        "title": "The Art of Effective Communication",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 48242,
+        "created_at": "2023-08-27T22:01:00.226Z",
+        "updated_at": "2023-08-28T02:05:14.572Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dfa3cd3-4e74-4373-bbbc-23cd7795560a",
+        "title": "Mastering the Art of Time Management",
+        "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "seo_score": 23032,
+        "created_at": "2023-08-28T02:22:02.722Z",
+        "updated_at": "2023-08-27T11:35:46.952Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db89c2a7-6b2e-4480-81fd-6d594dc5db24",
+        "title": "Unlocking Your Potential: A Guide to Personal Growth",
+        "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "seo_score": 21498,
+        "created_at": "2023-08-27T09:14:21.715Z",
+        "updated_at": "2023-08-28T04:45:24.611Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c06247d0-1539-43ed-89ff-2cea23a3667d",
+        "title": "The Power of Positive Thinking",
+        "body": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        "seo_score": 37923,
+        "created_at": "2023-08-27T17:34:34.991Z",
+        "updated_at": "2023-08-28T03:29:53.346Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfd55d7a-8df6-45ee-b227-512d7343c167",
+        "title": "Navigating Change in the Digital Age",
+        "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+        "seo_score": 52014,
+        "created_at": "2023-08-27T16:44:16.482Z",
+        "updated_at": "2023-08-27T10:04:48.523Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4670c923-54e5-4e4a-b343-296c4ff4a215",
+        "email": "Cortez_Kuhn-Heller@yahoo.com",
+        "firstName": "Chaz",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26216784",
+        "tenantId": null
+      },
+      {
+        "reference": "ef3cc10f-f9ce-4151-ba88-5051cc2ac0ec",
+        "email": "Jammie_Kozey70@gmail.com",
+        "firstName": "Oma",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56025520",
+        "tenantId": null
+      },
+      {
+        "reference": "ab487302-61c4-499f-876d-4a6a0856295c",
+        "email": "Darrel_Beer@gmail.com",
+        "firstName": "Anita",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1087.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b127713a-0cac-46e6-b1db-c2f65eb476cf",
+        "email": "Giles.Moore-Fahey80@gmail.com",
+        "firstName": "Jayson",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/41.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb844429-d13e-470f-aa87-8e69b20557b2",
+        "email": "Lukas_Franecki88@gmail.com",
+        "firstName": "Malinda",
+        "lastName": "Nienow-Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/375.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "5444e356-1e04-4f61-bd9b-76225f92345e",
+        "strategy": "Increase organic traffic",
+        "goals": "Generate more leads",
+        "tactics": "Keyword research and optimization",
+        "created_at": "2023-08-27T10:03:10.671Z",
+        "updated_at": "2023-08-28T02:51:53.859Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2cef4e0b-61ad-47bd-a469-af33ed8eaab8",
+        "strategy": "Improve search engine rankings",
+        "goals": "Increase brand awareness",
+        "tactics": "On-page SEO optimization",
+        "created_at": "2023-08-27T17:00:10.014Z",
+        "updated_at": "2023-08-27T05:36:23.936Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c3e2b978-11a3-4ef5-bc0b-2e821af291f1",
+        "strategy": "Enhance website visibility",
+        "goals": "Drive targeted traffic",
+        "tactics": "Link building outreach",
+        "created_at": "2023-08-27T17:52:33.186Z",
+        "updated_at": "2023-08-28T04:58:46.861Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "90fb855e-59d4-4956-bed3-dfa9f42bbd9d",
+        "strategy": "Optimize content for SEO",
+        "goals": "Boost online sales",
+        "tactics": "Content marketing campaigns",
+        "created_at": "2023-08-27T06:00:37.182Z",
+        "updated_at": "2023-08-27T13:20:40.444Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f1b214ea-3573-4ea9-a31e-0c146b7ae5b4",
+        "strategy": "Build high-quality backlinks",
+        "goals": "Improve user engagement",
+        "tactics": "Social media promotion",
+        "created_at": "2023-08-27T12:13:14.750Z",
+        "updated_at": "2023-08-27T20:06:06.855Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "4a81cade-3870-427b-8714-d618f18bc7fb",
+        "status": "Optimized",
+        "keywords": "SEO strategy",
+        "backlinks": 19130,
+        "traffic": 83066,
+        "created_at": "2023-08-27T15:55:58.797Z",
+        "updated_at": "2023-08-27T15:48:31.751Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4bbf9bb2-38fb-44d2-98e7-6d3b001c4859",
+        "status": "Under review",
+        "keywords": "Search engine optimization",
+        "backlinks": 54435,
+        "traffic": 80009,
+        "created_at": "2023-08-27T09:49:30.611Z",
+        "updated_at": "2023-08-27T11:41:24.871Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b274e456-b2ff-4661-b025-4cef537cdd69",
+        "status": "In progress",
+        "keywords": "Keyword research",
+        "backlinks": 3450,
+        "traffic": 30602,
+        "created_at": "2023-08-27T22:14:30.211Z",
+        "updated_at": "2023-08-27T06:17:28.909Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fe40c9b3-b789-4b92-9cb9-c8f62c556cc0",
+        "status": "Not started",
+        "keywords": "Backlink building",
+        "backlinks": 34368,
+        "traffic": 83449,
+        "created_at": "2023-08-27T18:31:33.851Z",
+        "updated_at": "2023-08-27T06:26:02.326Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0a0ceedb-786b-4a9a-bbcf-5a1204d3c7eb",
+        "status": "Completed",
+        "keywords": "Content optimization",
+        "backlinks": 12829,
+        "traffic": 53402,
+        "created_at": "2023-08-27T07:40:13.605Z",
+        "updated_at": "2023-08-27T16:16:21.362Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "b5d74a30-141d-4d20-9624-160142bd03df",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "created_at": "2023-08-27T23:56:10.779Z",
+        "updated_at": "2023-08-27T11:23:12.434Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ca226224-7830-4889-88bf-bf8543224a69",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "created_at": "2023-08-27T11:39:01.415Z",
+        "updated_at": "2023-08-27T16:08:01.579Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2bb40de7-09ad-49aa-b7e8-fca49068a8f9",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@example.com",
+        "created_at": "2023-08-27T23:28:13.263Z",
+        "updated_at": "2023-08-27T09:27:54.492Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0073c41a-9c6e-463b-8978-a02ae0046136",
+        "first_name": "Charlie",
+        "last_name": "Davis",
+        "email": "charlie.davis@example.com",
+        "created_at": "2023-08-27T16:39:31.628Z",
+        "updated_at": "2023-08-27T11:37:35.075Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7ed45ba2-e802-4b3e-91ff-0933ce07a76f",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "email": "olivia.wilson@example.com",
+        "created_at": "2023-08-27T09:37:36.036Z",
+        "updated_at": "2023-08-27T16:15:28.908Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "821e20c1-cda2-4612-beb0-75e966f2fe0f",
+        "title": "The Ultimate Guide to SEO",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 18291,
+        "created_at": "2023-08-27T07:06:58.910Z",
+        "updated_at": "2023-08-27T12:38:56.315Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b56bae12-1443-4bc0-b55a-757f93ebf8d2",
+        "title": "10 Tips for Effective Content Marketing",
+        "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "seo_score": 78718,
+        "created_at": "2023-08-27T22:13:11.372Z",
+        "updated_at": "2023-08-27T23:39:15.207Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b52bc826-8d84-431d-9811-bacaf1ada328",
+        "title": "How to Optimize Your Website for Search Engines",
+        "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "seo_score": 77469,
+        "created_at": "2023-08-28T01:00:31.996Z",
+        "updated_at": "2023-08-27T17:58:45.546Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95607ba2-808b-4499-90e4-dcb2f9c6e65e",
+        "title": "The Power of Social Media Marketing",
+        "body": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+        "seo_score": 2961,
+        "created_at": "2023-08-28T04:55:55.182Z",
+        "updated_at": "2023-08-27T15:03:34.298Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccea837d-463e-45d9-8f08-d185f83319ad",
+        "title": "Creating Engaging Blog Posts",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "seo_score": 49594,
+        "created_at": "2023-08-27T10:22:33.467Z",
+        "updated_at": "2023-08-27T06:12:02.615Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b93269d6-f6c9-4525-96e3-7951abf067eb",
+        "email": "Carmella88@gmail.com",
+        "firstName": "Moises",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/538.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfb2854f-e0ed-4032-b519-5a50fe82665f",
+        "email": "Jameson_Reichert88@gmail.com",
+        "firstName": "Emmanuelle",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/868.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d722f1ff-ef06-41c8-81c3-35519ae86611",
+        "email": "Jameson52@gmail.com",
+        "firstName": "Christina",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13492289",
+        "tenantId": null
+      },
+      {
+        "reference": "ce45a8ea-df81-4f30-98c7-a0bddc746c77",
+        "email": "Alford.Larkin88@yahoo.com",
+        "firstName": "Clark",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71726951",
+        "tenantId": null
+      },
+      {
+        "reference": "24a00cb2-0d2c-4d1a-ad6f-31a9f29f1d39",
+        "email": "Clair79@gmail.com",
+        "firstName": "Felipa",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/741.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "79f26d2d-8cef-45f8-b2c4-a3b14de4258b",
+        "strategy": "Content creation",
+        "goals": "Increase organic traffic",
+        "tactics": "Guest blogging",
+        "created_at": "2023-08-27T18:17:21.542Z",
+        "updated_at": "2023-08-28T01:26:39.026Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7adfe6b0-abb6-49fd-a178-c1001cdb448d",
+        "strategy": "Keyword research",
+        "goals": "Improve search engine rankings",
+        "tactics": "Social media marketing",
+        "created_at": "2023-08-27T16:05:17.440Z",
+        "updated_at": "2023-08-27T17:50:48.842Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1e41bed5-628f-4592-859e-217e256dbe7c",
+        "strategy": "Link building",
+        "goals": "Enhance brand visibility",
+        "tactics": "Local SEO optimization",
+        "created_at": "2023-08-27T08:05:24.241Z",
+        "updated_at": "2023-08-27T08:23:31.089Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "994d5ea3-f266-459c-8d2e-d6f3e4737269",
+        "strategy": "On-page optimization",
+        "goals": "Drive more leads",
+        "tactics": "Mobile optimization",
+        "created_at": "2023-08-28T02:55:54.248Z",
+        "updated_at": "2023-08-27T15:38:01.215Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "08906895-0afd-4f71-9d8e-ca76b3900cb0",
+        "strategy": "Competitor analysis",
+        "goals": "Boost website conversions",
+        "tactics": "Voice search optimization",
+        "created_at": "2023-08-28T02:03:10.096Z",
+        "updated_at": "2023-08-27T05:43:46.392Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "f6947596-70dc-4bcf-9c8b-8fde4e0f9da7",
+        "status": "Optimized",
+        "keywords": "SEO strategy",
+        "backlinks": 97285,
+        "traffic": 88073,
+        "created_at": "2023-08-27T08:34:33.437Z",
+        "updated_at": "2023-08-27T09:16:13.452Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c627bca7-58b2-49dc-b233-b04c064043ed",
+        "status": "Under review",
+        "keywords": "Keyword research",
+        "backlinks": 31325,
+        "traffic": 7243,
+        "created_at": "2023-08-27T21:21:42.803Z",
+        "updated_at": "2023-08-27T12:09:52.483Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5ae3712d-91ae-4f9e-917f-fb3d0507ace1",
+        "status": "In progress",
+        "keywords": "On-page SEO",
+        "backlinks": 26729,
+        "traffic": 15598,
+        "created_at": "2023-08-27T22:25:28.163Z",
+        "updated_at": "2023-08-27T23:58:13.159Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "20ca8183-673d-4ce9-aad2-b2cb40461e52",
+        "status": "Not started",
+        "keywords": "Link building",
+        "backlinks": 41720,
+        "traffic": 56323,
+        "created_at": "2023-08-27T15:27:27.073Z",
+        "updated_at": "2023-08-27T18:49:38.205Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5e8433b2-af98-4d06-aa2d-14e2b60a62c2",
+        "status": "Completed",
+        "keywords": "Website optimization",
+        "backlinks": 47253,
+        "traffic": 78799,
+        "created_at": "2023-08-27T17:42:07.138Z",
+        "updated_at": "2023-08-27T21:37:32.787Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "a919f42b-4c40-49b6-9210-60fe5f40e28d",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@gmail.com",
+        "created_at": "2023-08-27T06:19:02.664Z",
+        "updated_at": "2023-08-27T06:02:25.498Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "66106b0b-94f3-49b5-a104-37b0ec77b95a",
+        "first_name": "David",
+        "last_name": "Brown",
+        "email": "david.brown@yahoo.com",
+        "created_at": "2023-08-28T00:35:53.043Z",
+        "updated_at": "2023-08-28T03:49:40.099Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "63f79235-3b05-43e2-a5f7-8886b9a6b9c6",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "email": "sophia.miller@hotmail.com",
+        "created_at": "2023-08-27T13:09:15.625Z",
+        "updated_at": "2023-08-28T00:07:17.543Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6fff3b60-9e42-4709-a126-92593e883253",
+        "first_name": "Daniel",
+        "last_name": "Davis",
+        "email": "daniel.davis@gmail.com",
+        "created_at": "2023-08-28T04:19:17.011Z",
+        "updated_at": "2023-08-27T21:02:33.928Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "24c7202a-22a4-4916-9475-ee72bce537ec",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "email": "olivia.wilson@yahoo.com",
+        "created_at": "2023-08-27T06:37:34.149Z",
+        "updated_at": "2023-08-27T19:42:33.700Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "f939d091-ca24-48b4-b714-20ef3610206e",
+        "title": "The Ultimate Guide to SEO",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 846,
+        "created_at": "2023-08-27T10:17:46.426Z",
+        "updated_at": "2023-08-27T21:43:33.163Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3277aea-594c-463a-a7f8-263067af0d26",
+        "title": "10 Tips for Effective Content Marketing",
+        "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "seo_score": 37343,
+        "created_at": "2023-08-27T13:08:13.646Z",
+        "updated_at": "2023-08-27T12:37:07.921Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "904bd312-31a6-4148-9cb6-77e68901cfba",
+        "title": "How to Increase Website Traffic",
+        "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "seo_score": 18712,
+        "created_at": "2023-08-27T19:06:42.601Z",
+        "updated_at": "2023-08-27T18:33:12.924Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15643a89-efa2-4277-af67-fb7442231069",
+        "title": "The Power of Social Media Marketing",
+        "body": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+        "seo_score": 23705,
+        "created_at": "2023-08-27T14:08:29.948Z",
+        "updated_at": "2023-08-27T12:53:16.300Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "801f04a0-cb48-483b-b891-ddf1eb6defa4",
+        "title": "Creating Engaging Blog Posts",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "seo_score": 28622,
+        "created_at": "2023-08-28T01:59:01.759Z",
+        "updated_at": "2023-08-27T16:41:16.566Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b40fd277-294d-4a5b-a767-f9882f80c9ec",
+        "email": "Alden_Greenfelder24@hotmail.com",
+        "firstName": "Jordy",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1120.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "caaf561c-55df-4a78-82e1-9de86fe32394",
+        "email": "Mohamed_Casper3@hotmail.com",
+        "firstName": "Durward",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1058.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a701116b-ddc7-40d0-b463-e4046acee31c",
+        "email": "Werner_Russel@gmail.com",
+        "firstName": "Thomas",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/595.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3c5b53cb-8546-4a37-8d66-b0f41c8e3169",
+        "email": "Carolyne.Beier8@gmail.com",
+        "firstName": "Santino",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37054516",
+        "tenantId": null
+      },
+      {
+        "reference": "43345a3e-ac26-491b-9fee-f6a09c6b74fd",
+        "email": "Jaron33@yahoo.com",
+        "firstName": "Colleen",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/135.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "6f1a5526-d0df-4871-86b0-a880ce19cce4",
+        "strategy": "Improve website traffic",
+        "goals": "Generate more leads",
+        "tactics": "Keyword research and optimization",
+        "created_at": "2023-08-27T05:41:30.793Z",
+        "updated_at": "2023-08-27T07:28:44.802Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a6c7880b-a554-4e2d-8b16-e9893f948e86",
+        "strategy": "Increase search engine rankings",
+        "goals": "Drive organic traffic",
+        "tactics": "On-page SEO optimization",
+        "created_at": "2023-08-27T11:52:34.098Z",
+        "updated_at": "2023-08-27T17:08:01.167Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9fbe4a1f-cbe1-4f89-bd9c-6b4abb053837",
+        "strategy": "Enhance online visibility",
+        "goals": "Increase conversion rate",
+        "tactics": "Link building outreach",
+        "created_at": "2023-08-27T06:39:26.214Z",
+        "updated_at": "2023-08-27T21:49:26.497Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "55529e03-dba3-44aa-a841-cee49874a5e1",
+        "strategy": "Optimize content for SEO",
+        "goals": "Improve brand awareness",
+        "tactics": "Content marketing campaigns",
+        "created_at": "2023-08-27T22:31:57.155Z",
+        "updated_at": "2023-08-28T00:02:43.749Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e1e5ff20-c1cb-4ddc-ae06-a22db0f365d2",
+        "strategy": "Build high-quality backlinks",
+        "goals": "Expand online presence",
+        "tactics": "Social media promotion",
+        "created_at": "2023-08-27T19:55:04.627Z",
+        "updated_at": "2023-08-27T19:01:33.473Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "677551d1-123c-468a-913f-6f10d6c35b6b",
+        "status": "Optimized",
+        "keywords": "SEO strategy",
+        "backlinks": 26244,
+        "traffic": 72087,
+        "created_at": "2023-08-27T21:08:03.549Z",
+        "updated_at": "2023-08-27T21:02:36.651Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2e6f495e-9b82-46dd-bd7c-288bef5beb88",
+        "status": "In progress",
+        "keywords": "Search engine optimization",
+        "backlinks": 12453,
+        "traffic": 26106,
+        "created_at": "2023-08-27T10:34:40.977Z",
+        "updated_at": "2023-08-27T13:16:40.367Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "94c8ede8-c268-401c-8406-39709a435e59",
+        "status": "Not started",
+        "keywords": "Keyword research",
+        "backlinks": 26748,
+        "traffic": 92377,
+        "created_at": "2023-08-27T16:20:10.251Z",
+        "updated_at": "2023-08-27T06:58:32.177Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8b69a475-d8af-4d8a-990b-370e791a676b",
+        "status": "Completed",
+        "keywords": "Backlink building",
+        "backlinks": 84626,
+        "traffic": 57471,
+        "created_at": "2023-08-27T19:36:56.507Z",
+        "updated_at": "2023-08-27T21:24:26.056Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb1fea08-507d-4062-9a6b-90f9ac204f8e",
+        "status": "Under review",
+        "keywords": "On-page optimization",
+        "backlinks": 21471,
+        "traffic": 14112,
+        "created_at": "2023-08-27T16:17:36.231Z",
+        "updated_at": "2023-08-27T07:51:53.407Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "11a772d7-d850-4eb1-a20c-47311d22679a",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "email": "alex.johnson@example.com",
+        "created_at": "2023-08-27T06:24:46.724Z",
+        "updated_at": "2023-08-28T01:23:34.317Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b978740b-f996-41f2-9d2f-01217293cdc9",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "email": "emily.brown@example.com",
+        "created_at": "2023-08-27T14:24:39.448Z",
+        "updated_at": "2023-08-27T12:04:39.073Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3163902d-3bbb-4fd2-a988-7c9cc73fe0e3",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "email": "daniel.smith@example.com",
+        "created_at": "2023-08-27T08:25:23.246Z",
+        "updated_at": "2023-08-27T12:29:19.886Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5de7afa9-9331-45d7-9c90-18a98d187959",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "email": "olivia.davis@example.com",
+        "created_at": "2023-08-27T09:47:30.503Z",
+        "updated_at": "2023-08-28T03:53:56.986Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "39b9fb21-0382-4d2a-95c7-9ff4baffba71",
+        "first_name": "James",
+        "last_name": "Wilson",
+        "email": "james.wilson@example.com",
+        "created_at": "2023-08-27T19:56:45.011Z",
+        "updated_at": "2023-08-27T10:36:28.070Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "6b13e432-376e-4587-b3eb-e15e0355c1d4",
+        "title": "The Ultimate Guide to SEO",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 24715,
+        "created_at": "2023-08-27T13:48:49.849Z",
+        "updated_at": "2023-08-27T19:21:48.649Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1b900a7-0267-46de-a9f1-2edcdf3e9261",
+        "title": "10 Tips for Effective Content Marketing",
+        "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "seo_score": 37020,
+        "created_at": "2023-08-27T20:18:52.603Z",
+        "updated_at": "2023-08-27T10:09:57.188Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddb419d7-359f-46e2-9491-a00598eb3385",
+        "title": "How to Optimize Your Website for Search Engines",
+        "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "seo_score": 65478,
+        "created_at": "2023-08-27T15:59:33.214Z",
+        "updated_at": "2023-08-28T00:47:27.045Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c028322-9479-42ff-8adf-9c8b9db68dea",
+        "title": "The Importance of Quality Backlinks",
+        "body": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        "seo_score": 53359,
+        "created_at": "2023-08-27T05:54:51.359Z",
+        "updated_at": "2023-08-28T03:10:16.021Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afc61756-78c9-49ca-9e8e-0506d3a7cac0",
+        "title": "Creating Engaging Social Media Content",
+        "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+        "seo_score": 32883,
+        "created_at": "2023-08-27T09:49:02.950Z",
+        "updated_at": "2023-08-27T17:04:13.218Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "378fecfb-a301-483f-a755-ecf0de141b01",
+        "email": "Demario.Stiedemann@yahoo.com",
+        "firstName": "Cora",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/234.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c02078bc-99c7-4860-8ed2-47d8d03b8f0d",
+        "email": "Ricardo.Robel@gmail.com",
+        "firstName": "Carli",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23045494",
+        "tenantId": null
+      },
+      {
+        "reference": "1e8233ed-762c-4e3c-a9ac-a20071ab5edb",
+        "email": "Maye.Hoeger81@hotmail.com",
+        "firstName": "Danial",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/334.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "71de3612-e567-4af6-b0a4-35d47a4ccfe7",
+        "email": "Sarah48@gmail.com",
+        "firstName": "Laurence",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/443.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60fcb98e-5ba3-4186-b1c5-12a3b22ea812",
+        "email": "Yvette.Steuber@hotmail.com",
+        "firstName": "Tommie",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26923048",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "282f97ce-368d-4af9-8a71-be9ddb6d8d3b",
+        "strategy": "Improve website visibility",
+        "goals": "Generate leads",
+        "tactics": "Keyword research and optimization",
+        "created_at": "2023-08-27T23:34:14.423Z",
+        "updated_at": "2023-08-27T08:49:38.500Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "787ce23f-c30c-46d7-9202-c167653ade03",
+        "strategy": "Increase organic traffic",
+        "goals": "Increase brand awareness",
+        "tactics": "Content creation and optimization",
+        "created_at": "2023-08-27T14:37:09.027Z",
+        "updated_at": "2023-08-27T17:00:28.071Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9fc7e815-879e-416b-95c3-65b9073807d8",
+        "strategy": "Enhance search engine rankings",
+        "goals": "Drive online sales",
+        "tactics": "Link building and outreach",
+        "created_at": "2023-08-27T14:17:56.346Z",
+        "updated_at": "2023-08-27T05:38:55.652Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "44631bbd-655b-45bb-b6bf-120597285bc7",
+        "strategy": "Optimize content for SEO",
+        "goals": "Improve user engagement",
+        "tactics": "On-page SEO optimization",
+        "created_at": "2023-08-27T17:41:05.651Z",
+        "updated_at": "2023-08-27T13:29:38.321Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5c8ab207-9148-492e-82f5-480d9bc600ca",
+        "strategy": "Build quality backlinks",
+        "goals": "Expand target audience",
+        "tactics": "Technical SEO audit",
+        "created_at": "2023-08-27T14:24:34.688Z",
+        "updated_at": "2023-08-27T16:14:33.147Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "e17fa82e-90d2-4664-b667-b9c348e95af7",
+        "status": "Active",
+        "keywords": "SEO strategy",
+        "backlinks": 45339,
+        "traffic": 90466,
+        "created_at": "2023-08-28T04:32:14.800Z",
+        "updated_at": "2023-08-27T19:25:41.159Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "164e60fd-f370-446e-b6e6-58ea9d36b62e",
+        "status": "Pending",
+        "keywords": "Search engine optimization",
+        "backlinks": 83059,
+        "traffic": 70370,
+        "created_at": "2023-08-27T13:29:53.357Z",
+        "updated_at": "2023-08-27T21:49:07.393Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b27ff19c-b260-45c4-a5e2-127ef5d1dd6a",
+        "status": "Completed",
+        "keywords": "Keyword ranking",
+        "backlinks": 1439,
+        "traffic": 20467,
+        "created_at": "2023-08-27T11:02:36.001Z",
+        "updated_at": "2023-08-27T13:54:33.074Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c0bbc765-68ac-4c29-a34d-6524632220cd",
+        "status": "In Progress",
+        "keywords": "Organic traffic",
+        "backlinks": 47012,
+        "traffic": 35844,
+        "created_at": "2023-08-27T12:41:32.037Z",
+        "updated_at": "2023-08-27T23:05:05.200Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "43b641da-e478-4e2c-be4a-bc599fd2f52b",
+        "status": "On Hold",
+        "keywords": "Backlink profile",
+        "backlinks": 80189,
+        "traffic": 13117,
+        "created_at": "2023-08-28T01:30:37.555Z",
+        "updated_at": "2023-08-27T16:45:49.186Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "a02603a2-c5a0-41c8-b25b-ad9e5bb5fac6",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily.anderson@example.com",
+        "created_at": "2023-08-27T20:54:48.452Z",
+        "updated_at": "2023-08-27T14:45:03.200Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2626a0db-8de5-4a02-817d-c6e9da226bc5",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel.brown@example.com",
+        "created_at": "2023-08-27T06:10:23.052Z",
+        "updated_at": "2023-08-27T14:59:44.454Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0f8823ae-c727-41f2-9d1f-bdc389146061",
+        "first_name": "Olivia",
+        "last_name": "Clark",
+        "email": "olivia.clark@example.com",
+        "created_at": "2023-08-27T13:52:47.674Z",
+        "updated_at": "2023-08-27T20:36:11.018Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5804b43b-ddef-4ddc-ace9-dda5fa55532b",
+        "first_name": "James",
+        "last_name": "Davis",
+        "email": "james.davis@example.com",
+        "created_at": "2023-08-27T06:05:45.355Z",
+        "updated_at": "2023-08-27T14:15:56.758Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9555632c-893c-44d8-8a60-33b7d225499f",
+        "first_name": "Sophia",
+        "last_name": "Evans",
+        "email": "sophia.evans@example.com",
+        "created_at": "2023-08-27T22:08:23.906Z",
+        "updated_at": "2023-08-27T08:08:52.384Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "dad842d8-453c-4daa-b200-a88b51564841",
+        "title": "The Art of Effective Communication",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 22979,
+        "created_at": "2023-08-28T04:04:15.580Z",
+        "updated_at": "2023-08-27T15:15:45.398Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d776431-4b70-4e66-a224-c4f3cbd0791d",
+        "title": "Mastering the Art of Public Speaking",
+        "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "seo_score": 91214,
+        "created_at": "2023-08-28T01:05:28.152Z",
+        "updated_at": "2023-08-28T04:01:06.101Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bc5e273-424d-4231-874f-e898691eaeba",
+        "title": "The Power of Positive Thinking",
+        "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "seo_score": 11124,
+        "created_at": "2023-08-27T21:13:09.074Z",
+        "updated_at": "2023-08-27T19:34:52.566Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47f908ea-974d-452f-a5ad-ed2357585253",
+        "title": "Unlocking Your Full Potential",
+        "body": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        "seo_score": 18603,
+        "created_at": "2023-08-27T11:14:48.457Z",
+        "updated_at": "2023-08-27T09:46:11.179Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47d69681-834f-425d-af9f-caeff8911bdc",
+        "title": "The Science of Happiness",
+        "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+        "seo_score": 92035,
+        "created_at": "2023-08-27T17:29:20.243Z",
+        "updated_at": "2023-08-28T02:49:42.802Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b5c54482-2af9-4ec8-9942-6bf2692c6e7d",
+        "email": "Kennedy.Mosciski@hotmail.com",
+        "firstName": "Clara",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1067.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f8bbc3b3-0565-4e7e-b782-edb80ad1f0c8",
+        "email": "Nestor42@hotmail.com",
+        "firstName": "Abe",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/837.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ede95de-8cf1-4f0f-a0fb-5559fbc2947f",
+        "email": "Isadore.Wilderman60@hotmail.com",
+        "firstName": "Jan",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/446.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "43daf3bb-227e-4467-ae67-f530091d87cb",
+        "email": "Tre66@hotmail.com",
+        "firstName": "Isabell",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/285.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef8adc3a-07ba-4f7c-b2c0-08717c507c2b",
+        "email": "Monique_OConner@hotmail.com",
+        "firstName": "Rico",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55964494",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "17fc5b3e-92e8-4e55-938d-fcb3aa62c393",
+        "strategy": "Content Marketing",
+        "goals": "Increase organic traffic",
+        "tactics": "Creating high-quality content",
+        "created_at": "2023-08-27T09:44:26.965Z",
+        "updated_at": "2023-08-27T22:40:37.962Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89d389be-9ed8-424e-894f-e2e45f394d5a",
+        "strategy": "On-Page Optimization",
+        "goals": "Improve search engine rankings",
+        "tactics": "Optimizing meta tags and headings",
+        "created_at": "2023-08-28T00:03:05.705Z",
+        "updated_at": "2023-08-28T03:01:16.442Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9cf4735a-dc6a-4ef0-aa9a-ebf531b2fa66",
+        "strategy": "Link Building",
+        "goals": "Enhance brand visibility",
+        "tactics": "Earning backlinks from authoritative websites",
+        "created_at": "2023-08-27T12:29:50.070Z",
+        "updated_at": "2023-08-27T06:04:43.534Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "79654c7a-8916-47b6-9eab-597bf1ad041b",
+        "strategy": "Social Media Marketing",
+        "goals": "Drive more leads and conversions",
+        "tactics": "Engaging with followers on social media",
+        "created_at": "2023-08-27T18:53:27.636Z",
+        "updated_at": "2023-08-27T21:57:30.269Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a6f2d14d-1556-4883-b153-a77b2260dce2",
+        "strategy": "Keyword Research",
+        "goals": "Build a strong online presence",
+        "tactics": "Identifying relevant keywords for targeting",
+        "created_at": "2023-08-27T15:12:30.138Z",
+        "updated_at": "2023-08-27T18:35:11.356Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "3b74540d-d4f6-4287-9d4e-94e02229f54d",
+        "status": "Active",
+        "keywords": "SEO",
+        "backlinks": 89286,
+        "traffic": 35529,
+        "created_at": "2023-08-27T14:01:12.828Z",
+        "updated_at": "2023-08-27T07:42:02.006Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4d602317-5fd4-45ca-8006-ebadd26a8e5c",
+        "status": "Inactive",
+        "keywords": "digital marketing",
+        "backlinks": 71017,
+        "traffic": 63376,
+        "created_at": "2023-08-27T11:53:29.413Z",
+        "updated_at": "2023-08-28T02:06:37.217Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "05b9d581-e123-4acc-8460-a8c32c673f44",
+        "status": "Pending",
+        "keywords": "search engine optimization",
+        "backlinks": 4136,
+        "traffic": 26029,
+        "created_at": "2023-08-28T03:42:10.422Z",
+        "updated_at": "2023-08-27T07:02:44.211Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "44ba7922-54a4-42df-9a99-cefc9851f5d1",
+        "status": "Completed",
+        "keywords": "organic traffic",
+        "backlinks": 48072,
+        "traffic": 57634,
+        "created_at": "2023-08-27T06:42:35.994Z",
+        "updated_at": "2023-08-28T01:30:06.087Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5ee3c655-f4f2-4996-ba80-9e97283c7263",
+        "status": "On Hold",
+        "keywords": "keyword ranking",
+        "backlinks": 21286,
+        "traffic": 63535,
+        "created_at": "2023-08-27T21:27:02.730Z",
+        "updated_at": "2023-08-27T16:58:59.698Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "1dfc1fe4-ee9e-49e7-bb2c-449d00653c7b",
+        "first_name": "Alex",
+        "last_name": "Wilson",
+        "email": "alex.wilson@example.com",
+        "created_at": "2023-08-27T14:27:08.812Z",
+        "updated_at": "2023-08-28T04:51:16.831Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "252b8034-9cbe-423f-8c46-4a1ab771e924",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "created_at": "2023-08-27T07:39:50.489Z",
+        "updated_at": "2023-08-28T03:43:11.767Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "acf52af7-6943-4511-9998-e49a4c392b98",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "email": "daniel.smith@example.com",
+        "created_at": "2023-08-27T22:23:31.474Z",
+        "updated_at": "2023-08-28T01:47:01.417Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7189e0d4-905f-44e2-bc24-fb4c8c0a926f",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "email": "olivia.brown@example.com",
+        "created_at": "2023-08-27T23:18:35.308Z",
+        "updated_at": "2023-08-27T11:21:08.334Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fabe6e89-04d5-4664-b166-fc319b3e361e",
+        "first_name": "James",
+        "last_name": "Davis",
+        "email": "james.davis@example.com",
+        "created_at": "2023-08-28T00:08:19.854Z",
+        "updated_at": "2023-08-28T00:35:39.875Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "7be30526-9676-4963-bf36-bee139a2de6b",
+        "title": "The Art of Storytelling",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 47374,
+        "created_at": "2023-08-28T02:46:01.167Z",
+        "updated_at": "2023-08-27T12:10:04.814Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a598d20-08e2-419b-92a1-e02755e021c0",
+        "title": "10 Tips for Effective Communication",
+        "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "seo_score": 3625,
+        "created_at": "2023-08-27T16:46:36.619Z",
+        "updated_at": "2023-08-28T01:23:45.707Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9c55dfb-13af-4825-81b3-b56b97805672",
+        "title": "The Power of Positive Thinking",
+        "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "seo_score": 32411,
+        "created_at": "2023-08-27T15:45:23.813Z",
+        "updated_at": "2023-08-27T18:54:14.898Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d203593-c687-4f68-a404-be7d429e8ba0",
+        "title": "Mastering Time Management",
+        "body": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "seo_score": 31903,
+        "created_at": "2023-08-27T10:33:14.550Z",
+        "updated_at": "2023-08-27T15:11:36.903Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03ef9efb-1d32-4cd8-be9a-288760602edb",
+        "title": "Unlocking Creativity",
+        "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "seo_score": 31444,
+        "created_at": "2023-08-27T13:05:01.247Z",
+        "updated_at": "2023-08-28T03:45:20.197Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aecb774e-3cc6-4615-8c05-6fd864f57475",
+        "email": "Braxton.Wolf37@yahoo.com",
+        "firstName": "Zoe",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42488701",
+        "tenantId": null
+      },
+      {
+        "reference": "d44339ee-84dc-4fa1-9055-b4751d0b8f69",
+        "email": "Miracle56@hotmail.com",
+        "firstName": "Hattie",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/232.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61b7e1a0-1d54-4e81-93ee-b6768e9d03f6",
+        "email": "Rosemarie5@yahoo.com",
+        "firstName": "Elbert",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1195.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3185cbbd-3d6e-4740-b5b1-b1266a8abdc8",
+        "email": "Sibyl.Rolfson@gmail.com",
+        "firstName": "Tianna",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/362.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "57f319a4-151d-4c38-b1b3-9747439c053f",
+        "email": "Maureen.Stracke@gmail.com",
+        "firstName": "Myrtis",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4940081",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "6dca5939-ddea-4f5d-a816-3d354c25dd79",
+        "strategy": "Targeted keyword optimization",
+        "goals": "Increase organic traffic",
+        "tactics": "Keyword research and analysis",
+        "created_at": "2023-08-27T05:37:43.940Z",
+        "updated_at": "2023-08-27T15:14:52.925Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8f753f43-7b00-49cc-bf41-869fcddff2d8",
+        "strategy": "Content creation and promotion",
+        "goals": "Improve search engine rankings",
+        "tactics": "On-page optimization",
+        "created_at": "2023-08-27T10:56:18.831Z",
+        "updated_at": "2023-08-27T09:35:57.936Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5bdf9e90-194e-44fa-abf5-aabae7d87380",
+        "strategy": "Website performance improvement",
+        "goals": "Enhance brand visibility",
+        "tactics": "Content marketing campaigns",
+        "created_at": "2023-08-28T00:44:35.446Z",
+        "updated_at": "2023-08-27T15:01:18.396Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2144f130-c8b0-408c-9122-71b791ceac34",
+        "strategy": "Link building and outreach",
+        "goals": "Generate high-quality leads",
+        "tactics": "Link acquisition strategies",
+        "created_at": "2023-08-28T00:13:18.088Z",
+        "updated_at": "2023-08-27T13:12:30.337Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c7613a26-b7a3-4f7e-8e50-11f569f33341",
+        "strategy": "Social media engagement",
+        "goals": "Boost website conversions",
+        "tactics": "Social media advertising",
+        "created_at": "2023-08-27T17:56:10.221Z",
+        "updated_at": "2023-08-28T02:45:26.449Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "f57c86f4-d75e-492a-87b3-ab174e16b1a6",
+        "status": "Optimized",
+        "keywords": "SEO strategy",
+        "backlinks": 18667,
+        "traffic": 82648,
+        "created_at": "2023-08-27T10:01:54.120Z",
+        "updated_at": "2023-08-27T15:22:19.089Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5afaa556-87a6-450f-afb7-20d6f5fc6b90",
+        "status": "Under review",
+        "keywords": "Keyword research",
+        "backlinks": 28206,
+        "traffic": 22193,
+        "created_at": "2023-08-28T02:01:32.210Z",
+        "updated_at": "2023-08-27T12:40:26.072Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1eb2bedd-384b-4f83-a2ae-e429a8940cc8",
+        "status": "In progress",
+        "keywords": "On-page optimization",
+        "backlinks": 58264,
+        "traffic": 57036,
+        "created_at": "2023-08-28T03:12:47.870Z",
+        "updated_at": "2023-08-27T07:41:22.119Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d7c7e118-cf98-4020-b132-b4b0cad290c7",
+        "status": "Not started",
+        "keywords": "Backlink analysis",
+        "backlinks": 89083,
+        "traffic": 56646,
+        "created_at": "2023-08-27T11:56:57.713Z",
+        "updated_at": "2023-08-27T23:20:53.621Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89c80fba-a9d4-45ab-b4a3-942d1323d3ef",
+        "status": "Completed",
+        "keywords": "Competitor analysis",
+        "backlinks": 43377,
+        "traffic": 82787,
+        "created_at": "2023-08-27T12:42:21.882Z",
+        "updated_at": "2023-08-27T16:10:31.169Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "46e9ff60-bb1b-40be-8ad1-6e1733fcfa20",
+        "first_name": "Alice",
+        "last_name": "Anderson",
+        "email": "alice.anderson@example.com",
+        "created_at": "2023-08-28T01:11:12.241Z",
+        "updated_at": "2023-08-27T22:37:42.523Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "82b70a9f-4bf4-4e40-8633-c888a105d961",
+        "first_name": "Bob",
+        "last_name": "Brown",
+        "email": "bob.brown@example.com",
+        "created_at": "2023-08-27T12:18:43.168Z",
+        "updated_at": "2023-08-27T05:24:43.715Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7e8257b1-8206-4478-8eae-b781ce1b0766",
+        "first_name": "Eve",
+        "last_name": "Evans",
+        "email": "eve.evans@example.com",
+        "created_at": "2023-08-28T03:12:30.307Z",
+        "updated_at": "2023-08-27T13:32:50.296Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8b9f6546-1195-4f59-9c15-dbabf664538f",
+        "first_name": "Charlie",
+        "last_name": "Clark",
+        "email": "charlie.clark@example.com",
+        "created_at": "2023-08-28T05:06:01.217Z",
+        "updated_at": "2023-08-28T04:21:17.395Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7761b62a-626d-4d15-b405-759c1c97dcac",
+        "first_name": "David",
+        "last_name": "Davis",
+        "email": "david.davis@example.com",
+        "created_at": "2023-08-27T06:26:34.191Z",
+        "updated_at": "2023-08-28T00:25:27.194Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "3c55f465-1016-4f73-8514-174a681fa51d",
+        "title": "The Ultimate Guide to SEO",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 35991,
+        "created_at": "2023-08-27T09:59:22.811Z",
+        "updated_at": "2023-08-27T22:41:11.476Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c42b839-0aa4-4163-9238-7f93677842a8",
+        "title": "10 Tips for Effective Content Marketing",
+        "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "seo_score": 33433,
+        "created_at": "2023-08-27T17:21:33.008Z",
+        "updated_at": "2023-08-28T01:56:47.242Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c35affd6-4188-443f-bc39-dc1852a9cdb1",
+        "title": "How to Boost Your Website Conversions",
+        "body": "At vero eos et accusamus et iusto odio dignissimos ducimus.",
+        "seo_score": 44222,
+        "created_at": "2023-08-27T12:01:44.324Z",
+        "updated_at": "2023-08-27T06:14:41.729Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9532d0e7-123c-41e7-9888-602fbdeb0039",
+        "title": "The Importance of Social Media Engagement",
+        "body": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "seo_score": 83043,
+        "created_at": "2023-08-28T03:01:56.799Z",
+        "updated_at": "2023-08-27T05:31:34.586Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79d013b7-3009-4f72-b38a-dfc4231454d6",
+        "title": "Mastering On-Page Optimization",
+        "body": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "seo_score": 73142,
+        "created_at": "2023-08-27T13:18:37.652Z",
+        "updated_at": "2023-08-28T00:40:54.342Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d6676d1c-42c8-42b6-ada5-0b8b91b63861",
+        "email": "Yadira_Conn79@hotmail.com",
+        "firstName": "Reinhold",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20664605",
+        "tenantId": null
+      },
+      {
+        "reference": "c40fc42b-7dd3-4bbb-9b22-bae17adf86dc",
+        "email": "Muriel.Lind12@gmail.com",
+        "firstName": "Golda",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80876533",
+        "tenantId": null
+      },
+      {
+        "reference": "dfc27bf6-7be8-40a9-9b3a-1141e9efa677",
+        "email": "Kathlyn_Gusikowski22@yahoo.com",
+        "firstName": "Maximillia",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36163312",
+        "tenantId": null
+      },
+      {
+        "reference": "adc94ac5-a1f7-4072-84b0-324840dc002c",
+        "email": "Viviane66@gmail.com",
+        "firstName": "Meredith",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95318358",
+        "tenantId": null
+      },
+      {
+        "reference": "cd6c01d4-d555-4a49-b1f3-7aa24d357079",
+        "email": "Alejandrin.Pollich87@yahoo.com",
+        "firstName": "Alba",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/393.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "seo_strategy": [
+      {
+        "id": "fb7aaf21-8f1b-46f0-af86-f2a52e9d74e6",
+        "strategy": "Improve website traffic",
+        "goals": "Achieve top search engine rankings",
+        "tactics": "Keyword research and optimization",
+        "created_at": "2023-08-28T05:22:12.639Z",
+        "updated_at": "2023-08-28T04:36:24.504Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4ec7c141-6b11-4129-99cc-fd130a23523e",
+        "strategy": "Increase organic search rankings",
+        "goals": "Drive targeted traffic to the website",
+        "tactics": "On-page SEO optimization",
+        "created_at": "2023-08-27T06:37:39.453Z",
+        "updated_at": "2023-08-27T23:39:45.618Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "31b9a74d-b29c-4bb0-8ba8-0f685d76101f",
+        "strategy": "Enhance user engagement",
+        "goals": "Increase brand visibility online",
+        "tactics": "Content creation and optimization",
+        "created_at": "2023-08-27T23:56:11.123Z",
+        "updated_at": "2023-08-28T05:01:36.317Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9b4a5e25-d429-4f96-b916-00fd8021b23d",
+        "strategy": "Optimize content for search engines",
+        "goals": "Generate leads and conversions",
+        "tactics": "Link building and outreach",
+        "created_at": "2023-08-28T04:27:26.857Z",
+        "updated_at": "2023-08-27T05:44:19.889Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a18d58c9-1b5a-44da-b50f-aeb526848e46",
+        "strategy": "Build high-quality backlinks",
+        "goals": "Establish thought leadership in the industry",
+        "tactics": "Social media promotion",
+        "created_at": "2023-08-27T12:43:10.955Z",
+        "updated_at": "2023-08-27T06:07:15.076Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "seo_status": [
+      {
+        "id": "3b6f1141-5bc5-4f20-b935-46acfdd556ca",
+        "status": "Optimized",
+        "keywords": "SEO strategy",
+        "backlinks": 17585,
+        "traffic": 69213,
+        "created_at": "2023-08-28T05:04:46.344Z",
+        "updated_at": "2023-08-27T22:08:57.958Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2d34fad0-8b29-46c0-bd91-1933518f4d63",
+        "status": "In progress",
+        "keywords": "Search engine optimization",
+        "backlinks": 84806,
+        "traffic": 98823,
+        "created_at": "2023-08-27T17:28:20.448Z",
+        "updated_at": "2023-08-27T15:44:11.064Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c2b670de-1a84-40e2-84fd-ae8b7bc0a8db",
+        "status": "Needs improvement",
+        "keywords": "Keyword research",
+        "backlinks": 91265,
+        "traffic": 22545,
+        "created_at": "2023-08-27T08:11:42.882Z",
+        "updated_at": "2023-08-27T21:33:05.390Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f20041f8-df81-4790-8b69-8cfd9959e483",
+        "status": "On hold",
+        "keywords": "Backlink building",
+        "backlinks": 92207,
+        "traffic": 63913,
+        "created_at": "2023-08-27T21:05:41.985Z",
+        "updated_at": "2023-08-27T11:16:37.643Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3a47ef71-aac4-4cb1-84ea-7fadf4153573",
+        "status": "Completed",
+        "keywords": "Content optimization",
+        "backlinks": 83802,
+        "traffic": 92243,
+        "created_at": "2023-08-27T06:42:48.655Z",
+        "updated_at": "2023-08-27T11:11:40.247Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "ec70a712-87f2-4923-896e-49138457483f",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily.anderson@example.com",
+        "created_at": "2023-08-27T19:20:05.705Z",
+        "updated_at": "2023-08-27T06:07:03.066Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e393ccc1-3568-4ccf-bbcd-05e39c4c39d7",
+        "first_name": "Daniel",
+        "last_name": "Wilson",
+        "email": "daniel.wilson@example.com",
+        "created_at": "2023-08-27T22:29:52.708Z",
+        "updated_at": "2023-08-27T14:37:58.097Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf0ba79e-391a-4a8c-b7a9-b984958816f0",
+        "first_name": "Olivia",
+        "last_name": "Johnson",
+        "email": "olivia.johnson@example.com",
+        "created_at": "2023-08-27T18:56:15.144Z",
+        "updated_at": "2023-08-28T02:34:02.722Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5d0c21c0-17d1-4171-886e-fba628c22f56",
+        "first_name": "James",
+        "last_name": "Smith",
+        "email": "james.smith@example.com",
+        "created_at": "2023-08-27T16:32:27.353Z",
+        "updated_at": "2023-08-27T08:31:36.567Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d571f537-550f-478d-87d0-c6b140180e22",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "email": "sophia.brown@example.com",
+        "created_at": "2023-08-27T23:13:14.985Z",
+        "updated_at": "2023-08-27T20:02:22.868Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "3b6e8119-4380-4c01-bd2f-c0baf00c57cc",
+        "title": "The Ultimate Guide to SEO",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "seo_score": 89201,
+        "created_at": "2023-08-27T22:26:12.167Z",
+        "updated_at": "2023-08-27T17:47:14.835Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "901c4862-c961-451b-a8fe-dc5f04947c2d",
+        "title": "10 Tips for Effective Content Marketing",
+        "body": "Nulla facilisi. Sed ut turpis euismod, lobortis quam in, volutpat velit.",
+        "seo_score": 60449,
+        "created_at": "2023-08-27T22:57:46.519Z",
+        "updated_at": "2023-08-27T15:35:17.803Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d29113f-5c0d-405e-a5a1-7c10f7d98dfc",
+        "title": "How to Boost Your Website's Conversion Rate",
+        "body": "Suspendisse potenti. Nam id ligula in purus mattis tincidunt.",
+        "seo_score": 79510,
+        "created_at": "2023-08-28T01:50:28.958Z",
+        "updated_at": "2023-08-27T23:26:26.037Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6d8ea87-d986-402c-ba94-128ad94bae4e",
+        "title": "The Importance of User Experience in Web Design",
+        "body": "Fusce id velit eu metus condimentum tristique.",
+        "seo_score": 74477,
+        "created_at": "2023-08-28T03:51:25.341Z",
+        "updated_at": "2023-08-27T11:41:01.325Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "466f5a18-7e28-40f0-b145-34e85d89425d",
+        "title": "The Future of Artificial Intelligence",
+        "body": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+        "seo_score": 96784,
+        "created_at": "2023-08-27T17:27:45.438Z",
+        "updated_at": "2023-08-27T05:25:15.872Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0e8fbfc5-855a-43f4-8b19-fc82fa71cdac",
+        "email": "Myriam.Robel@gmail.com",
+        "firstName": "Sierra",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3690481",
+        "tenantId": null
+      },
+      {
+        "reference": "3bd1d237-c9ab-45b6-ad61-c009e03da53c",
+        "email": "Michaela_Homenick@yahoo.com",
+        "firstName": "Clyde",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69481263",
+        "tenantId": null
+      },
+      {
+        "reference": "97745c15-1618-4cb6-936c-c3963e38be15",
+        "email": "Felipe.Lubowitz-Funk@gmail.com",
+        "firstName": "Garnet",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "90bc5782-0abf-44dc-a1ca-f943439dcef1",
+        "email": "Nettie_Bruen90@yahoo.com",
+        "firstName": "Eldridge",
+        "lastName": "Kuphal-Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/359457",
+        "tenantId": null
+      },
+      {
+        "reference": "5b0d8a7c-8864-4551-849d-d5291f2ebf9e",
+        "email": "Glen_Goldner85@yahoo.com",
+        "firstName": "Ettie",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/328339",
+        "tenantId": null
+      }
+    ]
+  }
+]
